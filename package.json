@@ -1,0 +1,25 @@
+{
+  "name": "string-calculator-vanilla",
+  "version": "1.0.0",
+  "description": "Written in Vanilla JS and Jest as test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KierMusngi/string-calculator-vanilla-js.git"
+  },
+  "author": "Kier Musngi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KierMusngi/string-calculator-vanilla-js/issues"
+  },
+  "homepage": "https://github.com/KierMusngi/string-calculator-vanilla-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "jest": "^24.9.0"
+  }
+}
