@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/KierMusngi/string-calculator-vanilla-js/issues"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "homepage": "https://github.com/KierMusngi/string-calculator-vanilla-js#readme",
   "devDependencies": {
     "@babel/cli": "^7.7.0",

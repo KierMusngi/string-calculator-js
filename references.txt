@@ -1,0 +1,4 @@
+https://github.com/microsoft/vscode-recipes/tree/master/debugging-jest-tests
+
+https://osherove.com/tdd-kata-1
+
