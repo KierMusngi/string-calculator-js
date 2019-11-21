@@ -47,3 +47,41 @@ test('Add unknown amount of string numbers delimited with commas', () =>
     // Assert
     expect(sum).toEqual(55);
 });
+
+test('Add string numbers can be delimited by new line', () =>
+{
+    // Arrange
+    let calculator = new StringCalculator();
+
+    // Act
+    let sum = calculator.Add("1\n2,3");
+
+    // Assert
+    expect(sum).toEqual(6);
+});
+
+test('Add string numbers with default delimiter set', () =>
+{
+    // Arrange
+    let calculator = new StringCalculator();
+
+    // Act
+    let sum = calculator.Add("//;\n1;2;3");
+
+    // Assert
+    expect(sum).toEqual(6)
+});
+
+test('Negative integer is not allowed', () =>
+{
+    // Arrange
+    let calculator = new StringCalculator();
+
+    // Act
+    function func(){
+        calculator.Add("1,-2,-3");
+    };
+
+    // Assert
+    expect(func).toThrowError(new Error('Negative integer is not allowed'));
+});
